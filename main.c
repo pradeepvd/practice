@@ -1,7 +1,10 @@
-/*#include<stdio.h>
+#include<stdio.h>
+#include<string.h>
+
 int main()
 {
-int num,r,sum=0,temp;
+int num,r;
+int sum=0,temp;
 printf("Enter the number");
 scanf("%d",&num);
 temp =num;
@@ -9,7 +12,6 @@ while(num > 0)
 {
     r=num%10;
     sum =sum*10+r;
-
     num= num/10;
 }
 printf("the sum is= %d\n",sum);
@@ -19,4 +21,4 @@ else
     printf("not a palindrome");
 return 0;
 }
-*/
+
