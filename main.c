@@ -1,7 +1,10 @@
-/*#include<stdio.h>
+#include<stdio.h>
+#include<string.h>
+
 int main()
 {
-int num,r,sum=0,temp;
+int num,r;
+    int sum=0,temp;
 printf("Enter the number");
 scanf("%d",&num);
 temp =num;
